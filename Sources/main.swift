@@ -33,7 +33,7 @@ while let line = readLine() {
     passes += 1
   } else if errorRegex.matches(line) {
     failureMessages.append(line)
-    print("x", terminator: "")
+    print("F", terminator: "")
     failures += 1
   }
 
